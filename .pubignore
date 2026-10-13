@@ -16,6 +16,15 @@ pubspec.lock
 tool/
 node_modules/
 
+# Kept in git, not needed by package consumers:
+# - js/ is embedded verbatim in lib/src/generated/script_source.g.dart, so
+#   shipping it would duplicate it.
+# - test/ (tests, golden vectors, fixtures) runs from a clone of the repo.
+# analysis_options.yaml DOES ship: it sets the 120-column formatter width, and
+# without it pub.dev's formatter check fails every file (-10 points).
+js/
+test/
+
 # Internal project docs (AI/dev support notes)
 CLAUDE.md
 

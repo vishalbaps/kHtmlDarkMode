@@ -15,6 +15,11 @@ Pass HTML in, get a document back that themes itself when the web view loads it:
 It is **standalone**: there is no palette to configure. Every app using the
 package renders the same message the same way. Pure Dart, zero dependencies.
 
+**Your HTML needs no changes.** Existing templates work as they are — you do
+not have to add `--kdm-bg` or any other `--kdm-*` token, class or attribute.
+The tokens in [For template authors](#for-template-authors) are optional, for
+authors who want exact control.
+
 ## Install
 
 ```yaml
@@ -116,13 +121,19 @@ once for each new size (a resize, a late image). The latest is also left on
 Nothing is required: a plain light template is converted automatically. Three
 levels of control, from least to most:
 
-1. **Do nothing.** Write for a white page. Colours you got right are kept.
+1. **Do nothing** (the default, and enough for most templates). Write for a
+   white page with ordinary colours. Colours you got right are kept.
 2. **Ship your own dark mode.** Any `@media (prefers-color-scheme: …)` rule or
    `color-scheme: dark` declaration and the engine stands aside entirely.
-3. **Use the tokens.** These CSS custom properties are set on
+3. **Optional: use the tokens.** These CSS custom properties are set on
    `html[data-kdm-theme]` before any script runs, so token-based markup is
    exact in both modes. Define your own `:root` fallbacks for browser preview —
    the package's values outrank them.
+
+The tokens are **optional**. A template that never mentions `--kdm-*` is
+themed just as well by the in-page pass. Use them only if you want a colour
+to be exact in both modes rather than computed. If you are converting existing
+HTML, you can skip this table.
 
 | Token | Light | Dark |
 |---|---|---|

@@ -124,6 +124,8 @@ abstract final class KHtmlDarkMode {
 
   /// The `--kdm-*` design tokens for a mode, e.g. to publish to template
   /// authors or to style native UI around the web view to match.
+  ///
+  /// Optional: [convert] never needs HTML to use these tokens.
   static KdmTokens tokens({bool isDark = true, String? pageBackground}) {
     var palette = KdmPalette.of(isDark: isDark);
     if (pageBackground != null) {

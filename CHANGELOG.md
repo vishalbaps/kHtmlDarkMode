@@ -15,8 +15,9 @@ First release.
   templates that ship their own `prefers-color-scheme` CSS are left alone.
 - Optional text scaling (`fontScale`) that multiplies each element's resolved
   size, and optional fit-to-width (`fitToWidth`) for fixed-width email layouts.
-- `--kdm-*` design tokens for authors who want exact control, applied before any
-  script runs. `data-kdm-preserve` opts an element and its subtree out.
+- Optional `--kdm-*` design tokens for authors who want exact control, applied
+  before any script runs; templates that don't use them are converted
+  automatically. `data-kdm-preserve` opts an element and its subtree out.
 - Diagnostics: `data-kdm-version`, `data-kdm-source` and `data-kdm-stats` on
   `<html>`, `window.kdmReport` / `window.kdmLayout`, and `kdm:report` /
   `kdm:layout` events.
