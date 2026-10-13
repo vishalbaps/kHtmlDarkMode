@@ -1,0 +1,26 @@
+# Files excluded from the published pub.dev package (does NOT affect git).
+# Uses .gitignore syntax.
+#
+# NOTE: once a .pubignore exists, pub walks the filesystem instead of using
+# `git ls-files`, so normally-untracked build artifacts (.dart_tool/, build/)
+# are NO LONGER auto-excluded and must be listed here explicitly.
+
+# Build artifacts & tool caches
+build/
+.dart_tool/
+pubspec.lock
+
+# Development tooling. tool/ holds the Dart generators and the Node +
+# Playwright browser suite — none of it is useful to package consumers, and
+# the Node code must never ship to pub.dev.
+tool/
+node_modules/
+
+# Internal project docs (AI/dev support notes)
+CLAUDE.md
+
+# Editor / IDE state
+.idea/
+.vscode/
+*.iml
+.DS_Store

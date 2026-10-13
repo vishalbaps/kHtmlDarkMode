@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Author ships its own dark mode</title>
+  <style>
+    body { background: #ffffff; color: #111111; font-family: Arial, sans-serif; }
+    .panel { background: #f2f2f2; color: #333333; padding: 16px; }
+    @media (prefers-color-scheme: dark) {
+      body { background: #101010; color: #eeeeee; }
+      .panel { background: #1c1c1c; color: #dddddd; }
+    }
+  </style>
+</head>
+<body>
+  <div class="panel">This template handles dark mode itself, so the engine must stand aside.</div>
+</body>
+</html>

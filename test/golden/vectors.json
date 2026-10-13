@@ -1,0 +1,1373 @@
+{
+  "generatedBy": "tool/generate_vectors.dart",
+  "config": {
+    "darkPassthroughOkL": 0.45,
+    "brandFillMinChroma": 0.075,
+    "surfaceLiftOkL": 0.03,
+    "surfaceRangeOkL": 0.11,
+    "surfaceChromaFactor": 0.7,
+    "surfaceChromaCap": 0.055,
+    "surfaceSeparation": 1.2,
+    "surfaceCeilingOkL": 0.52,
+    "surfaceMaxLuminance": 0.17,
+    "textFloorOkL": 0.62,
+    "textRangeOkL": 0.33,
+    "textContrast": 4.5,
+    "largeTextContrast": 3.0
+  },
+  "page": "#181A1B",
+  "classify": [
+    {
+      "input": "#00695C",
+      "expected": "brandFill"
+    },
+    {
+      "input": "#006851",
+      "expected": "brandFill"
+    },
+    {
+      "input": "#0B5FA5",
+      "expected": "brandFill"
+    },
+    {
+      "input": "#2E7D32",
+      "expected": "brandFill"
+    },
+    {
+      "input": "#B34700",
+      "expected": "brandFill"
+    },
+    {
+      "input": "#C62828",
+      "expected": "brandFill"
+    },
+    {
+      "input": "#1976D2",
+      "expected": "brandFill"
+    },
+    {
+      "input": "#E65100",
+      "expected": "brandFill"
+    },
+    {
+      "input": "#F57C00",
+      "expected": "brandFill"
+    },
+    {
+      "input": "#FF9800",
+      "expected": "brandFill"
+    },
+    {
+      "input": "#FFB300",
+      "expected": "brandFill"
+    },
+    {
+      "input": "#FFD25A",
+      "expected": "brandFill"
+    },
+    {
+      "input": "#FFEB3B",
+      "expected": "brandFill"
+    },
+    {
+      "input": "#181A1B",
+      "expected": "alreadyDark"
+    },
+    {
+      "input": "#232328",
+      "expected": "alreadyDark"
+    },
+    {
+      "input": "#14211F",
+      "expected": "alreadyDark"
+    },
+    {
+      "input": "#000000",
+      "expected": "alreadyDark"
+    },
+    {
+      "input": "#333333",
+      "expected": "alreadyDark"
+    },
+    {
+      "input": "#FFFFFF",
+      "expected": "remapped"
+    },
+    {
+      "input": "#F0EDE4",
+      "expected": "remapped"
+    },
+    {
+      "input": "#FBF9F0",
+      "expected": "remapped"
+    },
+    {
+      "input": "#DEE8D5",
+      "expected": "remapped"
+    },
+    {
+      "input": "#EEEEEE",
+      "expected": "remapped"
+    },
+    {
+      "input": "#808080",
+      "expected": "remapped"
+    },
+    {
+      "input": "#FDF3FF",
+      "expected": "remapped"
+    },
+    {
+      "input": "#FFF2CC",
+      "expected": "remapped"
+    },
+    {
+      "input": "#EEF6FF",
+      "expected": "remapped"
+    },
+    {
+      "input": "#FFF3C4",
+      "expected": "remapped"
+    },
+    {
+      "input": "#EEF0F4",
+      "expected": "remapped"
+    }
+  ],
+  "mapSurface": [
+    {
+      "input": "#00695C",
+      "parent": null,
+      "parentAuthored": null,
+      "expected": "#00695C"
+    },
+    {
+      "input": "#00695C",
+      "parent": "#181A1B",
+      "parentAuthored": null,
+      "expected": "#00695C"
+    },
+    {
+      "input": "#006851",
+      "parent": null,
+      "parentAuthored": null,
+      "expected": "#006851"
+    },
+    {
+      "input": "#006851",
+      "parent": "#181A1B",
+      "parentAuthored": null,
+      "expected": "#006851"
+    },
+    {
+      "input": "#0B5FA5",
+      "parent": null,
+      "parentAuthored": null,
+      "expected": "#0B5FA5"
+    },
+    {
+      "input": "#0B5FA5",
+      "parent": "#181A1B",
+      "parentAuthored": null,
+      "expected": "#0B5FA5"
+    },
+    {
+      "input": "#2E7D32",
+      "parent": null,
+      "parentAuthored": null,
+      "expected": "#2E7D32"
+    },
+    {
+      "input": "#2E7D32",
+      "parent": "#181A1B",
+      "parentAuthored": null,
+      "expected": "#2E7D32"
+    },
+    {
+      "input": "#B34700",
+      "parent": null,
+      "parentAuthored": null,
+      "expected": "#B34700"
+    },
+    {
+      "input": "#B34700",
+      "parent": "#181A1B",
+      "parentAuthored": null,
+      "expected": "#B34700"
+    },
+    {
+      "input": "#C62828",
+      "parent": null,
+      "parentAuthored": null,
+      "expected": "#C62828"
+    },
+    {
+      "input": "#C62828",
+      "parent": "#181A1B",
+      "parentAuthored": null,
+      "expected": "#C62828"
+    },
+    {
+      "input": "#1976D2",
+      "parent": null,
+      "parentAuthored": null,
+      "expected": "#1976D2"
+    },
+    {
+      "input": "#1976D2",
+      "parent": "#181A1B",
+      "parentAuthored": null,
+      "expected": "#1976D2"
+    },
+    {
+      "input": "#E65100",
+      "parent": null,
+      "parentAuthored": null,
+      "expected": "#E65100"
+    },
+    {
+      "input": "#E65100",
+      "parent": "#181A1B",
+      "parentAuthored": null,
+      "expected": "#E65100"
+    },
+    {
+      "input": "#F57C00",
+      "parent": null,
+      "parentAuthored": null,
+      "expected": "#F57C00"
+    },
+    {
+      "input": "#F57C00",
+      "parent": "#181A1B",
+      "parentAuthored": null,
+      "expected": "#F57C00"
+    },
+    {
+      "input": "#FF9800",
+      "parent": null,
+      "parentAuthored": null,
+      "expected": "#FF9800"
+    },
+    {
+      "input": "#FF9800",
+      "parent": "#181A1B",
+      "parentAuthored": null,
+      "expected": "#FF9800"
+    },
+    {
+      "input": "#FFB300",
+      "parent": null,
+      "parentAuthored": null,
+      "expected": "#FFB300"
+    },
+    {
+      "input": "#FFB300",
+      "parent": "#181A1B",
+      "parentAuthored": null,
+      "expected": "#FFB300"
+    },
+    {
+      "input": "#FFD25A",
+      "parent": null,
+      "parentAuthored": null,
+      "expected": "#FFD25A"
+    },
+    {
+      "input": "#FFD25A",
+      "parent": "#181A1B",
+      "parentAuthored": null,
+      "expected": "#FFD25A"
+    },
+    {
+      "input": "#FFEB3B",
+      "parent": null,
+      "parentAuthored": null,
+      "expected": "#FFEB3B"
+    },
+    {
+      "input": "#FFEB3B",
+      "parent": "#181A1B",
+      "parentAuthored": null,
+      "expected": "#FFEB3B"
+    },
+    {
+      "input": "#181A1B",
+      "parent": null,
+      "parentAuthored": null,
+      "expected": "#181A1B"
+    },
+    {
+      "input": "#181A1B",
+      "parent": "#181A1B",
+      "parentAuthored": null,
+      "expected": "#181A1B"
+    },
+    {
+      "input": "#232328",
+      "parent": null,
+      "parentAuthored": null,
+      "expected": "#232328"
+    },
+    {
+      "input": "#232328",
+      "parent": "#181A1B",
+      "parentAuthored": null,
+      "expected": "#232328"
+    },
+    {
+      "input": "#14211F",
+      "parent": null,
+      "parentAuthored": null,
+      "expected": "#14211F"
+    },
+    {
+      "input": "#14211F",
+      "parent": "#181A1B",
+      "parentAuthored": null,
+      "expected": "#14211F"
+    },
+    {
+      "input": "#000000",
+      "parent": null,
+      "parentAuthored": null,
+      "expected": "#000000"
+    },
+    {
+      "input": "#000000",
+      "parent": "#181A1B",
+      "parentAuthored": null,
+      "expected": "#000000"
+    },
+    {
+      "input": "#333333",
+      "parent": null,
+      "parentAuthored": null,
+      "expected": "#333333"
+    },
+    {
+      "input": "#333333",
+      "parent": "#181A1B",
+      "parentAuthored": null,
+      "expected": "#333333"
+    },
+    {
+      "input": "#FFFFFF",
+      "parent": null,
+      "parentAuthored": null,
+      "expected": "#3C3C3C"
+    },
+    {
+      "input": "#FFFFFF",
+      "parent": "#181A1B",
+      "parentAuthored": null,
+      "expected": "#3C3C3C"
+    },
+    {
+      "input": "#F0EDE4",
+      "parent": null,
+      "parentAuthored": null,
+      "expected": "#3B3934"
+    },
+    {
+      "input": "#F0EDE4",
+      "parent": "#181A1B",
+      "parentAuthored": null,
+      "expected": "#3B3934"
+    },
+    {
+      "input": "#FBF9F0",
+      "parent": null,
+      "parentAuthored": null,
+      "expected": "#3C3B36"
+    },
+    {
+      "input": "#FBF9F0",
+      "parent": "#181A1B",
+      "parentAuthored": null,
+      "expected": "#3C3B36"
+    },
+    {
+      "input": "#DEE8D5",
+      "parent": null,
+      "parentAuthored": null,
+      "expected": "#353A30"
+    },
+    {
+      "input": "#DEE8D5",
+      "parent": "#181A1B",
+      "parentAuthored": null,
+      "expected": "#353A30"
+    },
+    {
+      "input": "#EEEEEE",
+      "parent": null,
+      "parentAuthored": null,
+      "expected": "#393939"
+    },
+    {
+      "input": "#EEEEEE",
+      "parent": "#181A1B",
+      "parentAuthored": null,
+      "expected": "#393939"
+    },
+    {
+      "input": "#808080",
+      "parent": null,
+      "parentAuthored": null,
+      "expected": "#282828"
+    },
+    {
+      "input": "#808080",
+      "parent": "#181A1B",
+      "parentAuthored": null,
+      "expected": "#292929"
+    },
+    {
+      "input": "#FDF3FF",
+      "parent": null,
+      "parentAuthored": null,
+      "expected": "#3E393F"
+    },
+    {
+      "input": "#FDF3FF",
+      "parent": "#181A1B",
+      "parentAuthored": null,
+      "expected": "#3E393F"
+    },
+    {
+      "input": "#FFF2CC",
+      "parent": null,
+      "parentAuthored": null,
+      "expected": "#413A24"
+    },
+    {
+      "input": "#FFF2CC",
+      "parent": "#181A1B",
+      "parentAuthored": null,
+      "expected": "#413A24"
+    },
+    {
+      "input": "#EEF6FF",
+      "parent": null,
+      "parentAuthored": null,
+      "expected": "#373B40"
+    },
+    {
+      "input": "#EEF6FF",
+      "parent": "#181A1B",
+      "parentAuthored": null,
+      "expected": "#373B40"
+    },
+    {
+      "input": "#FFF3C4",
+      "parent": null,
+      "parentAuthored": null,
+      "expected": "#413A1F"
+    },
+    {
+      "input": "#FFF3C4",
+      "parent": "#181A1B",
+      "parentAuthored": null,
+      "expected": "#413A1F"
+    },
+    {
+      "input": "#EEF0F4",
+      "parent": null,
+      "parentAuthored": null,
+      "expected": "#393A3C"
+    },
+    {
+      "input": "#EEF0F4",
+      "parent": "#181A1B",
+      "parentAuthored": null,
+      "expected": "#393A3C"
+    },
+    {
+      "input": "#F0EDE4",
+      "parent": "#181A1B",
+      "parentAuthored": null,
+      "expected": "#3B3934"
+    },
+    {
+      "input": "#FBF9F0",
+      "parent": "#3B3934",
+      "parentAuthored": null,
+      "expected": "#474641"
+    },
+    {
+      "input": "#DEE8D5",
+      "parent": "#474641",
+      "parentAuthored": null,
+      "expected": "#353A30"
+    },
+    {
+      "input": "#FFFFFF",
+      "parent": "#181A1B",
+      "parentAuthored": null,
+      "expected": "#3C3C3C"
+    },
+    {
+      "input": "#FFFFFF",
+      "parent": "#3C3C3C",
+      "parentAuthored": null,
+      "expected": "#484848"
+    },
+    {
+      "input": "#FFFFFF",
+      "parent": "#484848",
+      "parentAuthored": null,
+      "expected": "#3C3C3C"
+    },
+    {
+      "input": "#FFFFFF",
+      "parent": "#3C3C3C",
+      "parentAuthored": null,
+      "expected": "#484848"
+    },
+    {
+      "input": "#FFFFFF",
+      "parent": "#484848",
+      "parentAuthored": null,
+      "expected": "#3C3C3C"
+    },
+    {
+      "input": "#FFFFFF",
+      "parent": "#181A1B",
+      "parentAuthored": "#EEF0F4",
+      "expected": "#3C3C3C"
+    },
+    {
+      "input": "#FFFFFF",
+      "parent": "#3C3C3C",
+      "parentAuthored": "#FFFFFF",
+      "expected": "#3C3C3C"
+    },
+    {
+      "input": "#FFFFFF",
+      "parent": "#3C3C3C",
+      "parentAuthored": "#FFFFFF",
+      "expected": "#3C3C3C"
+    },
+    {
+      "input": "#FFFFFF",
+      "parent": "#3C3C3C",
+      "parentAuthored": "#FFFFFF",
+      "expected": "#3C3C3C"
+    },
+    {
+      "input": "#FFFFFF",
+      "parent": "#3C3C3C",
+      "parentAuthored": "#FFFFFF",
+      "expected": "#3C3C3C"
+    },
+    {
+      "input": "#FFFFFF",
+      "parent": "#3C3C3C",
+      "parentAuthored": "#FFFFFF",
+      "expected": "#3C3C3C"
+    },
+    {
+      "input": "#FFFFFF",
+      "parent": "#3C3C3C",
+      "parentAuthored": "#FFFFFF",
+      "expected": "#3C3C3C"
+    },
+    {
+      "input": "#FBF9F0",
+      "parent": "#3B3934",
+      "parentAuthored": "#F0EDE4",
+      "expected": "#3C3B36"
+    },
+    {
+      "input": "#DEE8D5",
+      "parent": "#3C3B36",
+      "parentAuthored": "#FBF9F0",
+      "expected": "#353A30"
+    },
+    {
+      "input": "#C9C9C9",
+      "parent": "#3C3C3C",
+      "parentAuthored": "#FFFFFF",
+      "expected": "#2F2F2F"
+    },
+    {
+      "input": "#F5F5F5",
+      "parent": "#3C3C3C",
+      "parentAuthored": "#FFFFFF",
+      "expected": "#3A3A3A"
+    },
+    {
+      "input": "#FFFFFF",
+      "parent": "#343434",
+      "parentAuthored": "#C9C9C9",
+      "expected": "#404040"
+    },
+    {
+      "input": "#E8E8E8",
+      "parent": "#3C3C3C",
+      "parentAuthored": "#FFFFFF",
+      "expected": "#2E2E2E"
+    },
+    {
+      "input": "#DADADA",
+      "parent": "#3A3A3A",
+      "parentAuthored": "#F5F5F5",
+      "expected": "#2D2D2D"
+    }
+  ],
+  "solveForeground": [
+    {
+      "input": "#FFFFFF",
+      "background": "#00695C",
+      "target": 4.5,
+      "expected": "#FFFFFF"
+    },
+    {
+      "input": "#FFFFFF",
+      "background": "#006851",
+      "target": 4.5,
+      "expected": "#FFFFFF"
+    },
+    {
+      "input": "#FFFFFF",
+      "background": "#0B5FA5",
+      "target": 4.5,
+      "expected": "#FFFFFF"
+    },
+    {
+      "input": "#FFFFFF",
+      "background": "#2E7D32",
+      "target": 4.5,
+      "expected": "#FFFFFF"
+    },
+    {
+      "input": "#FFFFFF",
+      "background": "#B34700",
+      "target": 4.5,
+      "expected": "#FFFFFF"
+    },
+    {
+      "input": "#FFFFFF",
+      "background": "#C62828",
+      "target": 4.5,
+      "expected": "#FFFFFF"
+    },
+    {
+      "input": "#FFFFFF",
+      "background": "#1976D2",
+      "target": 4.5,
+      "expected": "#FFFFFF"
+    },
+    {
+      "input": "#FFFFFF",
+      "background": "#14211F",
+      "target": 4.5,
+      "expected": "#FFFFFF"
+    },
+    {
+      "input": "#2F5D3A",
+      "background": "#181A1B",
+      "target": 4.5,
+      "expected": "#9DCEA6"
+    },
+    {
+      "input": "#2F5D3A",
+      "background": "#232328",
+      "target": 4.5,
+      "expected": "#9DCEA6"
+    },
+    {
+      "input": "#2F5D3A",
+      "background": "#383732",
+      "target": 4.5,
+      "expected": "#9DCEA6"
+    },
+    {
+      "input": "#2F5D3A",
+      "background": "#181A1B",
+      "target": 3.0,
+      "expected": "#9DCEA6"
+    },
+    {
+      "input": "#2C5530",
+      "background": "#181A1B",
+      "target": 4.5,
+      "expected": "#A3D0A5"
+    },
+    {
+      "input": "#2C5530",
+      "background": "#232328",
+      "target": 4.5,
+      "expected": "#A3D0A5"
+    },
+    {
+      "input": "#2C5530",
+      "background": "#383732",
+      "target": 4.5,
+      "expected": "#A3D0A5"
+    },
+    {
+      "input": "#2C5530",
+      "background": "#181A1B",
+      "target": 3.0,
+      "expected": "#A3D0A5"
+    },
+    {
+      "input": "#4A4A45",
+      "background": "#181A1B",
+      "target": 4.5,
+      "expected": "#C3C3BD"
+    },
+    {
+      "input": "#4A4A45",
+      "background": "#232328",
+      "target": 4.5,
+      "expected": "#C3C3BD"
+    },
+    {
+      "input": "#4A4A45",
+      "background": "#383732",
+      "target": 4.5,
+      "expected": "#C3C3BD"
+    },
+    {
+      "input": "#4A4A45",
+      "background": "#181A1B",
+      "target": 3.0,
+      "expected": "#C3C3BD"
+    },
+    {
+      "input": "#C1502E",
+      "background": "#181A1B",
+      "target": 4.5,
+      "expected": "#FE8E6D"
+    },
+    {
+      "input": "#C1502E",
+      "background": "#232328",
+      "target": 4.5,
+      "expected": "#FE8E6D"
+    },
+    {
+      "input": "#C1502E",
+      "background": "#383732",
+      "target": 4.5,
+      "expected": "#FE8E6D"
+    },
+    {
+      "input": "#C1502E",
+      "background": "#181A1B",
+      "target": 3.0,
+      "expected": "#C1502E"
+    },
+    {
+      "input": "#222222",
+      "background": "#181A1B",
+      "target": 4.5,
+      "expected": "#D3D3D3"
+    },
+    {
+      "input": "#222222",
+      "background": "#232328",
+      "target": 4.5,
+      "expected": "#D3D3D3"
+    },
+    {
+      "input": "#222222",
+      "background": "#383732",
+      "target": 4.5,
+      "expected": "#D3D3D3"
+    },
+    {
+      "input": "#222222",
+      "background": "#181A1B",
+      "target": 3.0,
+      "expected": "#D3D3D3"
+    },
+    {
+      "input": "#006851",
+      "background": "#181A1B",
+      "target": 4.5,
+      "expected": "#7ED0B5"
+    },
+    {
+      "input": "#006851",
+      "background": "#232328",
+      "target": 4.5,
+      "expected": "#7ED0B5"
+    },
+    {
+      "input": "#006851",
+      "background": "#383732",
+      "target": 4.5,
+      "expected": "#7ED0B5"
+    },
+    {
+      "input": "#006851",
+      "background": "#181A1B",
+      "target": 3.0,
+      "expected": "#7ED0B5"
+    },
+    {
+      "input": "#1976D2",
+      "background": "#181A1B",
+      "target": 4.5,
+      "expected": "#7AB6FD"
+    },
+    {
+      "input": "#1976D2",
+      "background": "#232328",
+      "target": 4.5,
+      "expected": "#7AB6FD"
+    },
+    {
+      "input": "#1976D2",
+      "background": "#383732",
+      "target": 4.5,
+      "expected": "#7AB6FD"
+    },
+    {
+      "input": "#1976D2",
+      "background": "#181A1B",
+      "target": 3.0,
+      "expected": "#1976D2"
+    },
+    {
+      "input": "#000000",
+      "background": "#181A1B",
+      "target": 4.5,
+      "expected": "#EEEEEE"
+    },
+    {
+      "input": "#000000",
+      "background": "#232328",
+      "target": 4.5,
+      "expected": "#EEEEEE"
+    },
+    {
+      "input": "#000000",
+      "background": "#383732",
+      "target": 4.5,
+      "expected": "#EEEEEE"
+    },
+    {
+      "input": "#000000",
+      "background": "#181A1B",
+      "target": 3.0,
+      "expected": "#EEEEEE"
+    },
+    {
+      "input": "#212121",
+      "background": "#181A1B",
+      "target": 4.5,
+      "expected": "#D3D3D3"
+    },
+    {
+      "input": "#212121",
+      "background": "#232328",
+      "target": 4.5,
+      "expected": "#D3D3D3"
+    },
+    {
+      "input": "#212121",
+      "background": "#383732",
+      "target": 4.5,
+      "expected": "#D3D3D3"
+    },
+    {
+      "input": "#212121",
+      "background": "#181A1B",
+      "target": 3.0,
+      "expected": "#D3D3D3"
+    },
+    {
+      "input": "#333333",
+      "background": "#181A1B",
+      "target": 4.5,
+      "expected": "#CCCCCC"
+    },
+    {
+      "input": "#333333",
+      "background": "#232328",
+      "target": 4.5,
+      "expected": "#CCCCCC"
+    },
+    {
+      "input": "#333333",
+      "background": "#383732",
+      "target": 4.5,
+      "expected": "#CCCCCC"
+    },
+    {
+      "input": "#333333",
+      "background": "#181A1B",
+      "target": 3.0,
+      "expected": "#CCCCCC"
+    },
+    {
+      "input": "#555555",
+      "background": "#181A1B",
+      "target": 4.5,
+      "expected": "#BEBEBE"
+    },
+    {
+      "input": "#555555",
+      "background": "#232328",
+      "target": 4.5,
+      "expected": "#BEBEBE"
+    },
+    {
+      "input": "#555555",
+      "background": "#383732",
+      "target": 4.5,
+      "expected": "#BEBEBE"
+    },
+    {
+      "input": "#555555",
+      "background": "#181A1B",
+      "target": 3.0,
+      "expected": "#BEBEBE"
+    },
+    {
+      "input": "#6E6E6E",
+      "background": "#181A1B",
+      "target": 4.5,
+      "expected": "#B5B5B5"
+    },
+    {
+      "input": "#6E6E6E",
+      "background": "#232328",
+      "target": 4.5,
+      "expected": "#B5B5B5"
+    },
+    {
+      "input": "#6E6E6E",
+      "background": "#383732",
+      "target": 4.5,
+      "expected": "#B5B5B5"
+    },
+    {
+      "input": "#6E6E6E",
+      "background": "#181A1B",
+      "target": 3.0,
+      "expected": "#6E6E6E"
+    },
+    {
+      "input": "#8C8C8C",
+      "background": "#181A1B",
+      "target": 4.5,
+      "expected": "#8C8C8C"
+    },
+    {
+      "input": "#8C8C8C",
+      "background": "#232328",
+      "target": 4.5,
+      "expected": "#8C8C8C"
+    },
+    {
+      "input": "#8C8C8C",
+      "background": "#383732",
+      "target": 4.5,
+      "expected": "#AAAAAA"
+    },
+    {
+      "input": "#8C8C8C",
+      "background": "#181A1B",
+      "target": 3.0,
+      "expected": "#8C8C8C"
+    },
+    {
+      "input": "#2B1055",
+      "background": "#181A1B",
+      "target": 4.5,
+      "expected": "#D5C9FF"
+    },
+    {
+      "input": "#2B1055",
+      "background": "#232328",
+      "target": 4.5,
+      "expected": "#D5C9FF"
+    },
+    {
+      "input": "#2B1055",
+      "background": "#383732",
+      "target": 4.5,
+      "expected": "#D5C9FF"
+    },
+    {
+      "input": "#2B1055",
+      "background": "#181A1B",
+      "target": 3.0,
+      "expected": "#D5C9FF"
+    },
+    {
+      "input": "#FFFFFF",
+      "background": "#FFB300",
+      "target": 4.5,
+      "expected": "#4F4F4F"
+    },
+    {
+      "input": "#FFFFFF",
+      "background": "#FFEB3B",
+      "target": 3.0,
+      "expected": "#858585"
+    },
+    {
+      "input": "#F6F6F9",
+      "background": "#FFB300",
+      "target": 4.5,
+      "expected": "#4F4F52"
+    },
+    {
+      "input": "#F6F6F9",
+      "background": "#FFEB3B",
+      "target": 3.0,
+      "expected": "#858588"
+    },
+    {
+      "input": "#CCCCCC",
+      "background": "#FFB300",
+      "target": 4.5,
+      "expected": "#4F4F4F"
+    },
+    {
+      "input": "#CCCCCC",
+      "background": "#FFEB3B",
+      "target": 3.0,
+      "expected": "#858585"
+    }
+  ],
+  "mapShadow": [
+    {
+      "input": "#000000",
+      "expected": "#000000"
+    },
+    {
+      "input": "#888888",
+      "expected": "#1A1A1A"
+    },
+    {
+      "input": "#CCCCCC",
+      "expected": "#2D2D2D"
+    },
+    {
+      "input": "#1976D2",
+      "expected": "#02162D"
+    },
+    {
+      "input": "#333333",
+      "expected": "#050505"
+    },
+    {
+      "input": "#FFFFFF",
+      "expected": "#3A3A3A"
+    }
+  ],
+  "mapBorder": [
+    {
+      "input": "#CCCCCC",
+      "background": "#181A1B",
+      "expected": "#323232"
+    },
+    {
+      "input": "#CCCCCC",
+      "background": "#232328",
+      "expected": "#3D3D3D"
+    },
+    {
+      "input": "#CCCCCC",
+      "background": "#2E2F35",
+      "expected": "#494949"
+    },
+    {
+      "input": "#E3E6EA",
+      "background": "#181A1B",
+      "expected": "#303235"
+    },
+    {
+      "input": "#E3E6EA",
+      "background": "#232328",
+      "expected": "#3A3D40"
+    },
+    {
+      "input": "#E3E6EA",
+      "background": "#2E2F35",
+      "expected": "#474A4D"
+    },
+    {
+      "input": "#DDDDDD",
+      "background": "#181A1B",
+      "expected": "#323232"
+    },
+    {
+      "input": "#DDDDDD",
+      "background": "#232328",
+      "expected": "#3D3D3D"
+    },
+    {
+      "input": "#DDDDDD",
+      "background": "#2E2F35",
+      "expected": "#494949"
+    },
+    {
+      "input": "#FFFFFF",
+      "background": "#181A1B",
+      "expected": "#323232"
+    },
+    {
+      "input": "#FFFFFF",
+      "background": "#232328",
+      "expected": "#3D3D3D"
+    },
+    {
+      "input": "#FFFFFF",
+      "background": "#2E2F35",
+      "expected": "#494949"
+    },
+    {
+      "input": "#333333",
+      "background": "#181A1B",
+      "expected": "#333333"
+    },
+    {
+      "input": "#333333",
+      "background": "#232328",
+      "expected": "#333333"
+    },
+    {
+      "input": "#333333",
+      "background": "#2E2F35",
+      "expected": "#333333"
+    },
+    {
+      "input": "#006851",
+      "background": "#181A1B",
+      "expected": "#006851"
+    },
+    {
+      "input": "#006851",
+      "background": "#232328",
+      "expected": "#006851"
+    },
+    {
+      "input": "#006851",
+      "background": "#2E2F35",
+      "expected": "#006851"
+    },
+    {
+      "input": "#FF9800",
+      "background": "#181A1B",
+      "expected": "#FF9800"
+    },
+    {
+      "input": "#FF9800",
+      "background": "#232328",
+      "expected": "#FF9800"
+    },
+    {
+      "input": "#FF9800",
+      "background": "#2E2F35",
+      "expected": "#FF9800"
+    },
+    {
+      "input": "#B0B0B0",
+      "background": "#181A1B",
+      "expected": "#323232"
+    },
+    {
+      "input": "#B0B0B0",
+      "background": "#232328",
+      "expected": "#3D3D3D"
+    },
+    {
+      "input": "#B0B0B0",
+      "background": "#2E2F35",
+      "expected": "#494949"
+    }
+  ],
+  "composite": [
+    {
+      "input": "#808080",
+      "alpha": 0.12,
+      "backdrop": "#181A1B",
+      "expected": "#242627"
+    },
+    {
+      "input": "#808080",
+      "alpha": 0.12,
+      "backdrop": "#FFFFFF",
+      "expected": "#F0F0F0"
+    },
+    {
+      "input": "#FFC107",
+      "alpha": 0.12,
+      "backdrop": "#181A1B",
+      "expected": "#342E19"
+    },
+    {
+      "input": "#FFFFFF",
+      "alpha": 0.12,
+      "backdrop": "#181A1B",
+      "expected": "#343536"
+    },
+    {
+      "input": "#006851",
+      "alpha": 0.12,
+      "backdrop": "#232328",
+      "expected": "#1F2B2D"
+    },
+    {
+      "input": "#808080",
+      "alpha": 0.14,
+      "backdrop": "#181A1B",
+      "expected": "#272829"
+    },
+    {
+      "input": "#808080",
+      "alpha": 0.14,
+      "backdrop": "#FFFFFF",
+      "expected": "#EDEDED"
+    },
+    {
+      "input": "#FFC107",
+      "alpha": 0.14,
+      "backdrop": "#181A1B",
+      "expected": "#383118"
+    },
+    {
+      "input": "#FFFFFF",
+      "alpha": 0.14,
+      "backdrop": "#181A1B",
+      "expected": "#383A3B"
+    },
+    {
+      "input": "#006851",
+      "alpha": 0.14,
+      "backdrop": "#232328",
+      "expected": "#1E2D2E"
+    },
+    {
+      "input": "#808080",
+      "alpha": 0.18,
+      "backdrop": "#181A1B",
+      "expected": "#2B2C2D"
+    },
+    {
+      "input": "#808080",
+      "alpha": 0.18,
+      "backdrop": "#FFFFFF",
+      "expected": "#E8E8E8"
+    },
+    {
+      "input": "#FFC107",
+      "alpha": 0.18,
+      "backdrop": "#181A1B",
+      "expected": "#423817"
+    },
+    {
+      "input": "#FFFFFF",
+      "alpha": 0.18,
+      "backdrop": "#181A1B",
+      "expected": "#424344"
+    },
+    {
+      "input": "#006851",
+      "alpha": 0.18,
+      "backdrop": "#232328",
+      "expected": "#1D2F2F"
+    },
+    {
+      "input": "#808080",
+      "alpha": 0.3,
+      "backdrop": "#181A1B",
+      "expected": "#373939"
+    },
+    {
+      "input": "#808080",
+      "alpha": 0.3,
+      "backdrop": "#FFFFFF",
+      "expected": "#D9D9D9"
+    },
+    {
+      "input": "#FFC107",
+      "alpha": 0.3,
+      "backdrop": "#181A1B",
+      "expected": "#5D4C15"
+    },
+    {
+      "input": "#FFFFFF",
+      "alpha": 0.3,
+      "backdrop": "#181A1B",
+      "expected": "#5D5F5F"
+    },
+    {
+      "input": "#006851",
+      "alpha": 0.3,
+      "backdrop": "#232328",
+      "expected": "#193834"
+    },
+    {
+      "input": "#808080",
+      "alpha": 0.45,
+      "backdrop": "#181A1B",
+      "expected": "#474848"
+    },
+    {
+      "input": "#808080",
+      "alpha": 0.45,
+      "backdrop": "#FFFFFF",
+      "expected": "#C6C6C6"
+    },
+    {
+      "input": "#FFC107",
+      "alpha": 0.45,
+      "backdrop": "#181A1B",
+      "expected": "#806512"
+    },
+    {
+      "input": "#FFFFFF",
+      "alpha": 0.45,
+      "backdrop": "#181A1B",
+      "expected": "#808182"
+    },
+    {
+      "input": "#006851",
+      "alpha": 0.45,
+      "backdrop": "#232328",
+      "expected": "#13423A"
+    }
+  ],
+  "targetFor": [
+    {
+      "px": 12.0,
+      "bold": false,
+      "expected": 4.5
+    },
+    {
+      "px": 16.0,
+      "bold": false,
+      "expected": 4.5
+    },
+    {
+      "px": 18.66,
+      "bold": true,
+      "expected": 3.0
+    },
+    {
+      "px": 18.0,
+      "bold": true,
+      "expected": 4.5
+    },
+    {
+      "px": 19.0,
+      "bold": false,
+      "expected": 4.5
+    },
+    {
+      "px": 24.0,
+      "bold": false,
+      "expected": 3.0
+    }
+  ]
+}

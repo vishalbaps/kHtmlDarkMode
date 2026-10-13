@@ -1,0 +1,18 @@
+# Dart
+.dart_tool/
+build/
+pubspec.lock
+
+# Node dev tooling (tool/node) — the lockfile IS committed
+tool/node/node_modules/
+tool/node/test-results/
+tool/node/playwright-report/
+
+# Editors / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Internal dev notes — kept locally, never pushed
+CLAUDE.md

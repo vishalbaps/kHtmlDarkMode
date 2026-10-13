@@ -1,0 +1,14 @@
+{
+  "name": "k-html-dark-mode-devtools",
+  "private": true,
+  "description": "Development-only test tooling for the k_html_dark_mode Dart package. Never published.",
+  "type": "module",
+  "scripts": {
+    "test": "npm run test:conformance && npm run test:browser",
+    "test:conformance": "node --test \"tests/*.test.mjs\"",
+    "test:browser": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.0"
+  }
+}
