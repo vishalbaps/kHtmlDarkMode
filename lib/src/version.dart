@@ -5,4 +5,4 @@
 /// Kept equal to `pubspec.yaml` by a test. Bump the minor on any change to a
 /// mapped colour (the golden vectors change), the patch on a fix that leaves
 /// every mapped colour identical.
-const String kdmVersion = '1.0.0';
+const String kdmVersion = '1.0.1';

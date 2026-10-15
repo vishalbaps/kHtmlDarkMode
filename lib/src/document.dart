@@ -324,7 +324,9 @@ String _themeCss(DocumentSpec spec) {
     b
       ..writeln()
       ..writeln('#kdm-root { overflow: hidden; }')
-      ..write('#kdm-content { transform-origin: top left; }');
+      // flow-root keeps the content's first and last margins inside it, so
+      // the height the script clamps #kdm-root to includes them.
+      ..write('#kdm-content { display: flow-root; transform-origin: top left; }');
   }
   return b.toString();
 }

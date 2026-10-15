@@ -28,6 +28,15 @@ const _hostStyle = '''
 <meta name="color-scheme" content="dark light">
 <style id="host-style">html { color-scheme: dark; } @media (prefers-color-scheme: dark) { .host-only { color: red; } }</style>''';
 
+const _wideWithEdgeMargins = '''
+<div style="width:600px">
+  <div style="margin-top:16px;height:100px;background:#eeeeee">first</div>
+  <div style="height:300px">middle</div>
+  <div id="last" style="margin-bottom:24px;height:50px;background:#dddddd">last</div>
+</div>''';
+
+const _subpixelWide = '<div style="width:calc(100% + 0.6px)"><p>Fits once rounding is set aside.</p></div>';
+
 void main() {
   final dir = Directory(_out);
   if (dir.existsSync()) dir.deleteSync(recursive: true);
@@ -87,6 +96,20 @@ void main() {
 
   emit('fragment-message.dark.fit', 'fragment-message.html',
       KHtmlDarkMode.convert(message, isDark: true, fitToWidth: true, extraBodyEnd: _hostListener).html,
+      isDark: true, options: {'fitToWidth': true});
+
+  // A wide message whose first and last children carry margins. With no
+  // padding or border in between, those margins collapse out of every
+  // wrapper up to #kdm-root.
+  emit('fit-margins.dark.fit', 'inline',
+      KHtmlDarkMode.convert(_wideWithEdgeMargins, isDark: true, fitToWidth: true, extraBodyEnd: _hostListener).html,
+      isDark: true, options: {'fitToWidth': true});
+
+  // Content that overflows by less than a pixel: what a fractional viewport
+  // (393.6 px on a 2.8125x phone) looks like once clientWidth and scrollWidth
+  // have each been rounded.
+  emit('fit-subpixel.dark.fit', 'inline',
+      KHtmlDarkMode.convert(_subpixelWide, isDark: true, fitToWidth: true, extraBodyEnd: _hostListener).html,
       isDark: true, options: {'fitToWidth': true});
 
   emit('fragment-message.dark.black', 'fragment-message.html',

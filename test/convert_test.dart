@@ -151,7 +151,7 @@ void main() {
       expect(fit, contains('<div id="kdm-root"><div id="kdm-content">'));
       expect(fit.indexOf('id="kdm-content"'), lessThan(fit.indexOf(fragment)));
       expect(fit.indexOf(fragment), lessThan(fit.indexOf('<!--kdm:wrap-end-->')));
-      expect(fit, contains('#kdm-content { transform-origin: top left; }'));
+      expect(fit, contains('#kdm-content { display: flow-root; transform-origin: top left; }'));
       expect(KHtmlDarkMode.convert(fragment, isDark: true).html, isNot(contains('id="kdm-root"')));
     });
 

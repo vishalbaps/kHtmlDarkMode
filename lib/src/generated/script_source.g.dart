@@ -426,7 +426,10 @@ function kdmDarkMode(OPTIONS) {
            on every resize and image load, twice. */
         var vw = document.documentElement.clientWidth;
         var cw = content.scrollWidth;
-        scale = (cw > vw && cw > 0) ? vw / cw : 1;
+        /* Both widths are rounded, separately: a 393.6 px viewport reads as
+           clientWidth 393 and content that fills it as scrollWidth 394. A
+           pixel of difference is rounding, not overflow. */
+        scale = (cw - vw > 1) ? vw / cw : 1;
         /* Only clamp the height when scaling down; otherwise leave it natural
            so the last line is never cut off by a sub-pixel rounding. */
         var transform = scale < 1 ? 'scale(' + scale + ')' : 'none';

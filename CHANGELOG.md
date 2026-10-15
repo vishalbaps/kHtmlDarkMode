@@ -1,3 +1,14 @@
+## 1.0.1
+
+Fit-to-width no longer cuts off the bottom of a message. No colour changes.
+
+- Content that fits the viewport is no longer scaled. On a phone whose CSS
+  viewport is fractional (393.6 px at 2.8125x), the rounded widths differ by a
+  pixel, which read as overflow and turned on scaling.
+- When content is scaled, its first and last children's margins now count
+  towards the clamped height. They used to collapse out of `#kdm-content`
+  and were clipped by `#kdm-root`.
+
 ## 1.0.0
 
 First release.

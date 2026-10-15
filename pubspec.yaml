@@ -2,7 +2,7 @@ name: k_html_dark_mode
 description: >-
   Standalone dark mode for HTML shown in a web view. Pass any HTML and get back
   a document that themes itself, keeping text at WCAG AA and brand colours intact.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/vishalbaps/kHtmlDarkMode
 repository: https://github.com/vishalbaps/kHtmlDarkMode.git
 issue_tracker: https://github.com/vishalbaps/kHtmlDarkMode/issues

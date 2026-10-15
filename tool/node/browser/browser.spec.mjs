@@ -280,6 +280,32 @@ test('fit-to-width scales a 600px table down to a phone', async ({ page }) => {
   expect(s.pageWidth).toBeLessThanOrEqual(s.viewport);
 });
 
+test('fit-to-width keeps collapsed edge margins inside the clamped height', async ({ page }) => {
+  await open(page, 'fit-margins.dark.fit');
+  await page.waitForFunction(() => window.__host && window.__host.layouts.length > 0);
+  const s = await page.evaluate(() => ({
+    layout: window.__host.layouts[window.__host.layouts.length - 1],
+    lastBottom: document.getElementById('last').getBoundingClientRect().bottom,
+    rootBottom: document.getElementById('kdm-root').getBoundingClientRect().bottom,
+  }));
+  expect(s.layout.scale).toBeLessThan(1);
+  expect(s.lastBottom, 'the last child is clipped by #kdm-root').toBeLessThanOrEqual(s.rootBottom + 0.5);
+  expect(s.layout.height).toBeGreaterThanOrEqual(Math.floor(s.lastBottom));
+});
+
+test('fit-to-width leaves sub-pixel overflow unscaled', async ({ page }) => {
+  await open(page, 'fit-subpixel.dark.fit');
+  await page.waitForFunction(() => window.__host && window.__host.layouts.length > 0);
+  const s = await page.evaluate(() => ({
+    layout: window.__host.layouts[window.__host.layouts.length - 1],
+    transform: document.getElementById('kdm-content').style.transform,
+    rootHeight: document.getElementById('kdm-root').style.height,
+  }));
+  expect(s.layout.scale).toBe(1);
+  expect(s.transform || 'none').toBe('none');
+  expect(s.rootHeight || 'auto').toBe('auto');
+});
+
 test('a host hears kdm:report and kdm:layout from its body-end script', async ({ page }) => {
   await open(page, 'fragment-message.dark');
   await page.waitForFunction(() => window.__host && window.__host.reports.length > 0 && window.__host.layouts.length > 0);
